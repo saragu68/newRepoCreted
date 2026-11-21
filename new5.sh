@@ -3,9 +3,9 @@
 # dry -dont repeat yourself
 
 echo "enter username"
-read username
+read -s username
 echo "username is $username"
 echo "enter pw"
-read pw
+read -s pw
 echo "passwrod is $pw"
 
