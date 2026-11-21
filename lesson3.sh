@@ -1,6 +1,5 @@
 #! /bin/bash
-
-echo date is :  $date
-echo user is  $whoami
-read -p "Enter your AWS environment (dev/stage/prod): " ENV
-echo "good you selected the env : $ENV"
+DATE=$date
+WHOMAMI=$whoami
+echo date is :  $DATE
+echo user is  $WHOMAMI
