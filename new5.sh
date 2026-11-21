@@ -3,7 +3,7 @@
 # dry -dont repeat yourself
 
 echo "enter username"
-read user-name
+read username
 echo "username is $username"
 echo "enter pw"
 read pw
