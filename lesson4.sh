@@ -4,5 +4,6 @@ if["$ENV" == "prod"]; then
 echo "u entered prod"
 elif["$ENV" == "stag"]; then
 echo "u entered stag"
+else[ echo "default"]
 fi
 
