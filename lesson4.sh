@@ -8,5 +8,3 @@ elif [[ "$ENV" == "stag" ]]; then
   echo "default"
  fi
 
-#!/bin/bash
-i
