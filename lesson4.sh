@@ -4,5 +4,5 @@ if["$ENV" == "prod"]; then
 echo "u entered prod"
 elif["$ENV" == "stag"]; then
 echo "u entered stag"
-fi;
+fi
 
