@@ -21,8 +21,20 @@ SERVERINFO(){
    echo "folder : $(pwd)"
 }
 
+INSTALLIFMISSING(){
+pkg="$1"
+if  rpm -q "$pkg" &>/dev/null; then
+   echo "$pkg is already installed — skipping."
+else
+        echo "Installing $pkg..."
+        dnf install -y "$pkg"
+fi
+}
+
+
 SERVERINFO
 validate "$USERID"
+INSTALLIFMISSING "$mysql"
 
 
 
