@@ -24,6 +24,7 @@ SERVERINFO(){
 INSTALLIFMISSING(){
 pkg="$1"
 if  rpm -q "$pkg" &>/dev/null; then
+mkdir -p log.txt
    echo "$pkg is already installed — skipping." >> log.txt
 else
         echo "Installing $pkg..."
