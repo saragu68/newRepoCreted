@@ -12,4 +12,5 @@ if [ -e "$TARGET" ]; then
 else 
  echo "not found"
 fi
+df -P /
 
