@@ -14,4 +14,15 @@ validate(){
     fi
 }
 
-validate "$USERID" "USER1"
+SERVERINFO(){
+   echo "id :$(id)"
+   echo "username :$(whoami)"
+   echo "username :$(id)"
+   echo "folder : $(pwd)"
+}
+
+SERVERINFO
+
+
+
+
