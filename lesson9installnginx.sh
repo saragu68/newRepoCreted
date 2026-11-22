@@ -1,4 +1,8 @@
 #! /bin/bash
-
 USERID=$(id -u)
-echo "user id is : $USERiD"
+if [ "$USERID" -eq 0 ]; then 
+echo "installing nginx ...."
+dnf install nginx -y
+else
+echo "please login with root....."
+fi
