@@ -32,9 +32,9 @@ fi
 }
 
 
-SERVERINFO
-validate "$USERID"
-INSTALLIFMISSING "$mysql"
+#SERVERINFO
+#validate "$USERID"
+INSTALLIFMISSING nginx
 
 
 
