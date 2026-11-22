@@ -34,7 +34,7 @@ fi
 
 #SERVERINFO
 #validate "$USERID"
-INSTALLIFMISSING nginx
+INSTALLIFMISSING mysql
 
 
 
