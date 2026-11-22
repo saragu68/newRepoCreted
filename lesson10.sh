@@ -22,6 +22,8 @@ SERVERINFO(){
 }
 
 SERVERINFO
+validate "$USERID"
+
 
 
 
